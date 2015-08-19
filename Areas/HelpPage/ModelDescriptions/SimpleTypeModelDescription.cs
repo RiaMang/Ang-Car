@@ -1,0 +1,6 @@
+namespace Ang_Car.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
