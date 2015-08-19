@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body ng-app="car-finder">
+    <div ng-controller="indexCtrl as index" ng-cloak>
+        <h2>Hello World! Your number is {{index.value}}</h2>
+        <h3>Your number times 10 is {{index.value*10}}</h3>
+        <h3>The time is {{index.time}}</h3>
+        <button class="btn btn-success" ng-click="index.value=index.value+1">+1</button>
+        <button class="btn btn-danger" ng-click="index.value=index.value=value-1">-1</button>
+    </div>
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/indexCtrl.js"></script>
+</body>
+</html>
